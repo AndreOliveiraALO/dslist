@@ -38,7 +38,7 @@ A proposta é simular uma plataforma de catálogo e ranqueamento de jogos, com f
 
   * `test`: Banco H2 em memória. (Desenvolvimento e teste)
   * `dev`: PostgreSQL com Docker Compose local. (Homologação)
-  * `prod`: Deploy via **Railway** com CI/CD configurado e banco PostgreSQL em container. (Produção)
+  * `prod`: Deploy via **Railway** com CI/CD configurado e banco PostgreSQL em container. (Produção) Obs.: Usando plano free no Railway, no qual há uma limitação mensal, que pode ser modificada pelo Railway.  
 * Configuração de **CORS** para integração com aplicações frontend
 * Processo de **CI/CD** para publicação contínua
 
